@@ -10,14 +10,14 @@ function ThemeChecker() {
 
   useEffect(() => {
     if (localStorage.getItem("theme") === "true") {
-        console.log(localStorage.getItem("theme"))
+      console.log(localStorage.getItem("theme"));
       setTheme((theme) => {
         return { fromLocalStorage: true, dark: true };
       });
     } else {
       setTheme({ fromLocalStorage: true, dark: false });
     }
-  }, []);
+  }, [setTheme]);
 
   return <></>;
 }
