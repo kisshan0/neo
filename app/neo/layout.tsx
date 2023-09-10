@@ -1,5 +1,3 @@
-"use client";
-
 import MainDashboardContainer from "@/components/Dashboard/Container/Main";
 import Header from "@/components/Dashboard/Navigation/Header";
 import NavbarDashboard from "@/components/Dashboard/Navigation/Navbar";
