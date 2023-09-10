@@ -1,3 +1,5 @@
+"use client";
+
 import BuildLogs from "@/components/Dashboard/Tables/BuildLogs";
 
 function Page() {
