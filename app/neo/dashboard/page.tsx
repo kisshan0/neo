@@ -1,5 +1,3 @@
-"use client";
-
 import UpgradePlanBanner from "@/components/Dashboard/Banner/UpgradePlanBanner";
 import RecentBuildCard from "@/components/Dashboard/Cards/RecentBuildCard";
 

@@ -2,15 +2,14 @@
 
 import themeAtom, { themeAtomCallback } from "@/atoms/theme.atom";
 import { useAtom } from "jotai";
-import { useEffect } from "react";
+import { useLayoutEffect } from "react";
 
 function ThemeChecker() {
   const [theme, setTheme] = useAtom(themeAtom);
   const [themeCallback, setThemeCallback] = useAtom(themeAtomCallback);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     if (localStorage.getItem("theme") === "true") {
-      console.log(localStorage.getItem("theme"));
       setTheme((theme) => {
         return { fromLocalStorage: true, dark: true };
       });

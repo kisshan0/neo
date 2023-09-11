@@ -28,6 +28,7 @@ function Page() {
             </p>
           </div>
           <Image
+            placeholder="blur"
             src={loginArt}
             alt="login art"
             className=" w-full h-full rounded-xl"
