@@ -3,7 +3,7 @@
 import Button from "@/ui/Forms/Button";
 import Input from "@/ui/Forms/Input";
 import InputSlider from "@/ui/Forms/InputSlider";
-import { Slider } from "@material-tailwind/react";
+
 import Link from "next/link";
 
 function CreateBuildForm() {
@@ -39,14 +39,14 @@ function CreateBuildForm() {
       </div>
 
       <div>
-        <div className=" flex justify-between items-center flex-wrap">
+        {/* <div className=" flex justify-between items-center flex-wrap">
           <p className=" text-lg font-medium ">Select GPU Type</p>
           <p className=" text-sm font-light">
             Only A10 GPU can be used for free stage
           </p>
-        </div>
+        </div> */}
 
-        <div className=" grid grid-cols-3 mt-5">
+        {/* <div className=" grid grid-cols-3 mt-5">
           <div>
             <label className=" flex gap-6">
               <input
@@ -82,7 +82,7 @@ function CreateBuildForm() {
           <div className=" flex items-center justify-end">
             <p className=" font-semibold">$0.3 /Hour</p>
           </div>
-        </div>
+        </div> */}
 
         <div className=" flex items-center justify-center mt-10">
           <Button>Submit</Button>

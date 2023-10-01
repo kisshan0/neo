@@ -16,21 +16,21 @@ function RecentBuildCard() {
       <div className=" mt-5 grid  gap-4">
         <div>
           <div className=" flex items-center mb-1 justify-between">
-            <p className=" text-lg">Pixel Streaming Server</p>
+            <p className=" text-lg">Backend Deployment</p>
             <EventText event="Completed">Completed</EventText>
           </div>
           <EventIndicator event="Completed" />
         </div>
         <div>
           <div className=" flex items-center mb-1 justify-between">
-            <p className=" text-lg">Game Pack</p>
+            <p className=" text-lg">Scripts Automation</p>
             <EventText event="Failed">Failed</EventText>
           </div>
           <EventIndicator event="Failed" />
         </div>
         <div>
           <div className=" flex items-center mb-1 justify-between">
-            <p className=" text-lg">Assets Compression</p>
+            <p className=" text-lg">Image Compression</p>
             <EventText event="Progress">In Progress</EventText>
           </div>
           <EventIndicator event="Progress" />

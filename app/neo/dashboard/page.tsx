@@ -5,7 +5,7 @@ function Page() {
   return (
     <>
       <h1 className=" text-2xl font-medium dark:text-white">
-        Hey, Betide Studio
+        Hey, Tech Wizards
       </h1>
       <UpgradePlanBanner />
       <div>
